@@ -1,0 +1,40 @@
+@import url('https://rickandmortyapi.com/documentation/');
+
+
+
+body {
+    background-color: rgb(165, 152, 143);
+}
+
+.container {
+    width: 630px;
+    height: 680px;
+}
+
+.btn-close {
+    position: absolute;
+    right: 2px;
+}
+
+ul {
+    height: 290px;
+    overflow-y: scroll;
+}
+
+li {
+    border-radius: 1px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+li:hover {
+    background-color: #ddcdcd;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #fcd8bc;
+}
